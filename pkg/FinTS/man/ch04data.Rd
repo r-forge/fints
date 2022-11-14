@@ -51,9 +51,7 @@ data(q.unemrate)
 %\details{
 %}
 \source{
-  \url{
-    http://faculty.chicagobooth.edu/ruey.tsay/teaching/fts2
-  }
+  \url{https://faculty.chicagobooth.edu/ruey-s-tsay/teaching}
 }
 \references{
   Ruey Tsay (2005) Analysis of Financial Time Series, 2nd ed. (Wiley,

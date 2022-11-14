@@ -93,7 +93,7 @@ runscript(x, method = c('run', 'copy', 'view', 'show', 'dir'),
 # provide a menu
 runscript()
 
-# run ~R\library\FinTS\scripts\ch01.R
+# run R/library/FinTS/scripts/ch01.R
 runscript(1)
 
 # same as:
@@ -111,9 +111,9 @@ runscript(1, 'show')
 # where is it?
 runscript(1, 'dir')
 
-# run ~R\library\nlme\scripts\afda-ch01.R
+# run R/library/nlme/scripts/afda-ch01.R
 if(require(fda))
-     runscript(1, fmt = "afda-ch%02d.R", package = "fda")
+    runscript(1, fmt = "afda-ch\%02d.R", package = "fda")
 }
 }
 \keyword{utilities}

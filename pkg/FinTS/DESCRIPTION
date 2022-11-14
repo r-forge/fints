@@ -3,7 +3,7 @@ Type: Package
 Title: Companion to Tsay (2005) Analysis of Financial
        Time Series
 Version: 0.4-7
-Date: 2019-04-05
+Date: 2022-11-14
 Author: Spencer Graves
 Maintainer: Georgi N. Boshnakov <georgi.boshnakov@manchester.ac.uk>
 Description: R companion to Tsay (2005) Analysis of Financial Time
@@ -18,3 +18,4 @@ Depends:  zoo, graphics
 Suggests:  moments, distrEx, tseries, urca,
    lmtest, sandwich, psych, GPArotation, chron,
    polynom, e1071
+LazyData: yes

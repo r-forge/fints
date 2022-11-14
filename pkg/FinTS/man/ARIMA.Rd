@@ -153,7 +153,7 @@ ARIMA(x, order = c(0, 0, 0),
 
   Patrick Burns (2002) 'Robustness of the Ljung-Box Test and its Rank
   Equivalent',
-  \url{http://www.burns-stat.com/pages/Working/ljungbox.pdf}, accessed
+  \url{https://www.burns-stat.com/pages/Working/ljungbox.pdf}, accessed
   2007.12.29.
 }
 \author{

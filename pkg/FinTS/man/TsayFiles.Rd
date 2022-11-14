@@ -16,7 +16,6 @@
 }
 \usage{
 TsayFiles
-FinTS.url
 }
 \format{
   \itemize{
@@ -65,7 +64,8 @@ FinTS.url
       A character string giving the universal resource locator (URL)
       associated with the Tsay (2005) book:
 
-      \code{FinTS.url <- "http://faculty.chicagogsb.edu/ruey.tsay/teaching/fts2"}
+      % was: "http://faculty.chicagogsb.edu/ruey.tsay/teaching/fts2"
+      \code{FinTS.url <- "https://faculty.chicagobooth.edu/ruey-s-tsay/teaching"}
     }
   }
 }

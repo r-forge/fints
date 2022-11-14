@@ -28,9 +28,7 @@ data(d.cscoy99)
 }
 %\details{}
 \source{
-  \url{
-    http://faculty.chicagobooth.edu/ruey.tsay/teaching/fts2
-  }
+  \url{https://faculty.chicagobooth.edu/ruey-s-tsay/teaching}
 }
 \references{
   Ruey Tsay (2005)
@@ -45,4 +43,3 @@ data(d.cscoy99)
   \code{\link{ch05data}}
 }
 %\examples{}
-

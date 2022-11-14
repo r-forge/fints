@@ -69,9 +69,7 @@ plotArmaTrueacf(object, lag.max = 20, pacf = FALSE, plot = TRUE,
   }
 }
 \source{
-  \url{
-    http://faculty.chicagobooth.edu/ruey.tsay/teaching/fts2
-  }
+  \url{https://faculty.chicagobooth.edu/ruey-s-tsay/teaching}
 }
 \references{
   George E. P. Box and Gwilym M. Jenkins (1970) Time Series Analysis,

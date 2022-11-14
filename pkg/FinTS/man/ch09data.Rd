@@ -105,9 +105,7 @@ data(m.apca0103)
 %\details{
 %}
 \source{
-  \url{
-    http://faculty.chicagobooth.edu/ruey.tsay/teaching/fts2
-  }
+  \url{https://faculty.chicagobooth.edu/ruey-s-tsay/teaching}
 }
 \references{
   Ruey Tsay (2005)
@@ -135,4 +133,3 @@ stopifnot(all(sameDates))
 M.apca0103 <- with(m.apca0103, array(return, dim = c(36, 40), dimnames =
     list(NULL, paste("Co", CompanyID[seq(1, 1440, 36)], sep=""))))
 }
-

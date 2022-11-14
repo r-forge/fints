@@ -68,16 +68,14 @@ AutocorTest(x, lag = ceiling(log(length(x))),
   }
 }
 \source{
-  \url{
-    http://faculty.chicagobooth.edu/ruey.tsay/teaching/fts2
-  }
+  \url{https://faculty.chicagobooth.edu/ruey-s-tsay/teaching}
 }
 \references{
   Ruey Tsay (2005) Analysis of Financial Time Series, 2nd ed. (Wiley)
 
   Patrick Burns (2002) 'Robustness of the Ljung-Box Test and its Rank
   Equivalent',
-  \url{http://www.burns-stat.com/pages/Working/ljungbox.pdf}, accessed
+  \url{https://www.burns-stat.com/pages/Working/ljungbox.pdf}, accessed
   2007.12.29.
 }
 \seealso{

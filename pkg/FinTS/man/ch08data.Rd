@@ -88,9 +88,7 @@ data(sp5may)
 %\details{
 %}
 \source{
-  \url{
-    http://faculty.chicagobooth.edu/ruey.tsay/teaching/fts2
-  }
+  \url{https://faculty.chicagobooth.edu/ruey-s-tsay/teaching}
 }
 \references{
   Forbes, C. S., Kalb, G. R. J., and Kofman, P. (1999) 'Bayesian

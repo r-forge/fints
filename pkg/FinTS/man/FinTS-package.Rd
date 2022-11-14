@@ -48,9 +48,7 @@ Maintainer: % Spencer Graves <spencer.graves@prodsyse.com>
 \keyword{ package }
 \keyword{ ts }
 \seealso{
-  \url{
-    http://faculty.chicagobooth.edu/ruey.tsay/teaching/fts2
-  }
+  \url{https://faculty.chicagobooth.edu/ruey-s-tsay/teaching}
 }
 \examples{
 # Where is the 'FinTS' directory?
