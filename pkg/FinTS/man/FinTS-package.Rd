@@ -11,18 +11,21 @@
   \Sexpr[stage=build]{pd$Description}
 }
 \details{
-   \tabular{ll}{
-   Package     \tab  \Sexpr[stage=build]{pd$Package   } \cr 
-   Version     \tab  \Sexpr[stage=build]{pd$Version   } \cr
-   Date        \tab  \Sexpr[stage=build]{pd$Date      } \cr    
-   Author      \tab  \Sexpr[stage=build]{pd$Author    } \cr     
-   Maintainer  \tab  \Sexpr[stage=build]{pd$Maintainer} \cr    
-   License     \tab  \Sexpr[stage=build]{pd$License   } \cr    
-   URL         \tab  \Sexpr[stage=build]{pd$URL       } \cr    
-   Depends     \tab  \Sexpr[stage=build]{pd$Depends   } \cr    
-   Suggests    \tab  \Sexpr[stage=build]{pd$Suggests  } \cr    
-   Built       \tab  \Sexpr[stage=build]{pd$Built     } \cr
-   }
+
+  % 2023-08-20 Georgi: not really needed, commenting out.
+  %
+  % \tabular{ll}{
+  % Package     \tab  \Sexpr[stage=build]{pd$Package   } \cr 
+  % Version     \tab  \Sexpr[stage=build]{pd$Version   } \cr
+  % Date        \tab  \Sexpr[stage=build]{pd$Date      } \cr    
+  % Author      \tab  \Sexpr[stage=build]{pd$Author    } \cr     
+  % Maintainer  \tab  \Sexpr[stage=build]{pd$Maintainer} \cr    
+  % License     \tab  \Sexpr[stage=build]{pd$License   } \cr    
+  % URL         \tab  \Sexpr[stage=build]{pd$URL       } \cr    
+  % Depends     \tab  \Sexpr[stage=build]{pd$Depends   } \cr    
+  % Suggests    \tab  \Sexpr[stage=build]{pd$Suggests  } \cr    
+  % Built       \tab  \Sexpr[stage=build]{pd$Built     } \cr
+  % }
 
    % this will print the index but this doesn't seem useful.
    % 
