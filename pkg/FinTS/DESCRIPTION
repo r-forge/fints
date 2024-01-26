@@ -2,7 +2,7 @@ Package: FinTS
 Type: Package
 Title: Companion to Tsay (2005) Analysis of Financial
        Time Series
-Version: 0.4-8
+Version: 0.4-9
 Authors@R: c( person(given = "Spencer", family = "Graves",
                      role = c("aut"), 
                      email = "spencer.graves@effectivedefense.org"),
@@ -19,7 +19,7 @@ License: GPL (>= 2)
 BugReports: https://r-forge.r-project.org/tracker/?group_id=84&atid=380
 URL: https://geobosh.github.io/FinTSDoc/ (doc), https://r-forge.r-project.org/projects/fints/ (devel)
 Depends:  zoo, graphics
-Suggests:  moments, distrEx, tseries, urca,
+Suggests:  moments, tseries, urca,
    lmtest, sandwich, psych, GPArotation, chron,
    polynom, e1071
 LazyData: yes
