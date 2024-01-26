@@ -31,7 +31,7 @@ data(w.gs1n36299)
   Objects of class zoo giving simple returns for each trading period
   (day, week or month) for different periods.
 
-  \itemize{
+  \describe{
     \item{m.ibm2697, m.vw2697}{
       Monthly returns for IBM stock and the value weighted index from
       1926 to 1997.

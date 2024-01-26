@@ -1,3 +1,8 @@
+Changes in Version 0.4-8
+
+  o fixed CRAN NOTEs 'Lost braces in \itemize; meant \describe ?'.
+  
+
 Changes in Version 0.4-7
 
   o 'FinTS-package.Rd' contained hard coded strings related to old versions of

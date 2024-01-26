@@ -21,7 +21,7 @@ data(m.apca0103)
 }
 \format{
 
-  \itemize{
+  \describe{
     \item{m.fac9003}{
       a zoo object of 168 observations giving simple excess returns of
       13 stocks and the Standard and Poor's 500 index over the monthly
@@ -29,7 +29,7 @@ data(m.apca0103)
       as the risk-free rate from January 1990 to December 2003.  (These
       numbers are used in Table 9.1.)
 
-      \itemize{
+      \describe{
 	\item{AA}{Alcoa}
 	\item{AGE}{A. G. Edwards}
 	\item{CAT}{Caterpillar}
@@ -51,7 +51,7 @@ data(m.apca0103)
       a zoo object of 168 monthly on two macroeconomic variables from
       January 1975 through December 2002 (p. 412):
 
-      \itemize{
+      \describe{
 	\item{CPI}{
 	  consumer price index for all urban consumers:  all items and
 	  with index 1982-1984 = 100
@@ -66,7 +66,7 @@ data(m.apca0103)
       a zoo object giving monthly excess returns of ten stocks from
       January 1990 through December 2003:
 
-      \itemize{
+      \describe{
 	\item{AGE}{A. G. Edwards}
 	\item{C}{Citigroup}
 	\item{MWD}{Morgan Stanley}
@@ -82,7 +82,7 @@ data(m.apca0103)
       a zoo object giving monthly log returns in percentages of 5 stocks
       from January 1990 through December 1999:
 
-      \itemize{
+      \describe{
 	\item{IBM}{International Business Machines}
 	\item{HPQ}{Hewlett-Packard}
 	\item{INTC}{Intel}
@@ -94,7 +94,7 @@ data(m.apca0103)
       data.frame of monthly simple returns of 40 stocks from January
       2001 through December 2003, discussed in sect. 9.6.2, pp. 437ff.
 
-      \itemize{
+      \describe{
 	\item{CompanyID}{5-digit company identification code}
 	\item{date}{the last workday of the month}
 	\item{return}{in percent}

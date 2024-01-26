@@ -25,7 +25,7 @@ data(day15)
 }
 \format{
 
-  \itemize{
+  \describe{
     \item{ibm}{
       IBM transactions data (11/1/1990 - 1/31/1991)
 
@@ -57,7 +57,7 @@ data(day15)
       each day was dropped leaving the 59,775 transactions in this
       data.frame.
 
-      \itemize{
+      \describe{
 	\item{A.priceChange}{
 	  1 if a price change from the previous trade, 0 otherwise
 	}
@@ -80,7 +80,7 @@ data(day15)
       a data.frame with 6 variables the same transactions as in
       'ibm91.ads':
 
-      \itemize{
+      \describe{
 	\item{volume.thousands}{thousands of shares traded}
 	\item{time.betw.trades}{seconds between the previous two trades}
 	\item{bid.ask.spread}{
@@ -114,7 +114,7 @@ data(day15)
       a zoo object with the following columns supposedly summarizing
       only the price changes in day15.ori:
 
-      \itemize{
+      \describe{
 	\item{timeBetwPriceChg}{
 	  time in seconds since the last price change
 	}

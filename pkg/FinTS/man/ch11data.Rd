@@ -19,7 +19,7 @@ data(aa.3rv)
 
   The data set introduced with Chapter 11 is as follows:
 
-  \itemize{
+  \describe{
     \item{aa.3rv.}{
       a zoo object of daily 5, 10, and 20 minute realized volatility of
       Alcoa stock from 2003-01-02 through 2004-05-07.

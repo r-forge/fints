@@ -18,7 +18,7 @@
 TsayFiles
 }
 \format{
-  \itemize{
+  \describe{
     \item{TsayFiles}{
       A list with names 'ch01', 'ch02', ..., 'ch12' for components
       describing the files associated with the corresponding chapter.
@@ -28,7 +28,7 @@ TsayFiles
       array giving names for 'data', 'file', 'url', and 'found' for the
       data referenced in the text or exercises of that chapter:
 
-      \itemize{
+      \describe{
 	\item{data}{
 	  'file' without the extension, e.g, 'd-ibmvwewsp6203' for daily
 	  simple returns of IBM, VW, EW, SP (7/3/62-12/31/03) = 'file'

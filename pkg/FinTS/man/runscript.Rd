@@ -24,7 +24,7 @@ runscript(x, method = c('run', 'copy', 'view', 'show', 'dir'),
   \item{method}{
     One of the following:
 
-    \itemize{
+    \describe{
       \item{run}{
 	run the desired script file, similar to \link{demo} or
 	\link{example}.

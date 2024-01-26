@@ -32,7 +32,7 @@ data(d.sp8099)
 
   The other data sets used in chapter 3 are as follows:
 
-  \itemize{
+  \describe{
     \item{exch.perc}{
       numeric vector of length 2497 giving percentage changes in the
       exchange rate between the German mark and the US dollar in 10

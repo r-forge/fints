@@ -15,7 +15,7 @@ data(d.cscoy99)
   Objects of class zoo giving returns for each trading day for different
   periods
 
-  \itemize{
+  \describe{
     \item{d.ibmy98}{
       Zoo object giving daily  simple returns of IBM stock for each
       trading day in 1998.

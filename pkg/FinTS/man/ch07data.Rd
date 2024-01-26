@@ -13,12 +13,12 @@ data(d.intc7297)
 }
 \format{
 
-  \itemize{
+  \describe{
     \item{d.ibm6298wmx}{
       a zoo object of 9190 observations on several series relating to
       IBM stock, 1962-07-03 to 1998-12-31:
 
-      \itemize{
+      \describe{
 	\item{dailySimpleRtns}{
 	  daily simple returns in percentages of IBM stock
 	}

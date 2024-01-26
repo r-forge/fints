@@ -21,7 +21,7 @@ data(m.geln)
 }
 \format{
 
-  \itemize{
+  \describe{
     \item{w.gs3n1c}{
       a zoo object of the change series of weekly US interest rates (3
       and 1 year maturities) from  Jan. 5, 1962, to Sep. 10, 1999.  This

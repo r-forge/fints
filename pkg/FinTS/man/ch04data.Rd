@@ -29,7 +29,7 @@ data(q.unemrate)
 
   The other data sets used in chapter 4 are as follows:
 
-  \itemize{
+  \describe{
     \item{m.unrate}{
       zoo object giving the monthly US civilian unemployment rate from
       1948 through 2004.

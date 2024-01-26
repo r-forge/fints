@@ -19,7 +19,7 @@ data(sp5may)
 }
 \format{
 
-  \itemize{
+  \describe{
     \item{m.ibmsp2699ln}{
       zoo object giving monthly simple and log returns of IBM stock and
       the Standard and Poor's 500 from 1926 through 1999.  (This
@@ -50,7 +50,7 @@ data(sp5may)
       are.  The following is a current guess and will doubtless change
       in the future.
 
-      \itemize{
+      \describe{
 	\item{logFuture}{
 	  logarithms of June Futures contracts traded at the Chicago
 	  Mercantile Exchange.  The first difference of this series

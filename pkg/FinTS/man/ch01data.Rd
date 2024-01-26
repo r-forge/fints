@@ -49,7 +49,7 @@ data(w.tb6ms)
   (day, week or month) for different periods, with different start dates
   but typically running to the end of 2003.
 
-  \itemize{
+  \describe{
     \item{d.ibmvwewsp6203, m.ibmvwewsp2603}{
       Zoo objects with 4 columns (IBM, VW, EW, and SP).  Daily data
       starts with 1962-07-03.  Monthly data starts with 1926-01-30.
@@ -79,7 +79,7 @@ data(w.tb6ms)
     }
     \item{m.fama.bond5203}{
       Monthly bond returns as follows:
-      \itemize{
+      \describe{
 	\item{m1.12}{1-12m}
 	\item{m24.36}{24-36m}
 	\item{m48.60}{48-60m}
