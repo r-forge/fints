@@ -8,7 +8,8 @@ Authors@R: c( person(given = "Spencer", family = "Graves",
                      email = "spencer.graves@effectivedefense.org"),
               person(given = c("Georgi", "N."), family = "Boshnakov", 
                      role = c("cre", "ctb"), 
-                     email = "georgi.boshnakov@manchester.ac.uk") )
+                     email = "georgi.boshnakov@manchester.ac.uk",
+		     comment = c(ORCID = "0000-0003-2839-346X")) )
 Description: R companion to Tsay (2005) Analysis of Financial Time
    Series, second edition (Wiley).  Includes data sets, functions and
    script files required to work some of the examples.  Version 0.3-x
