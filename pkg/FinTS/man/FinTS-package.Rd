@@ -11,33 +11,17 @@
   \Sexpr[stage=build]{pd$Description}
 }
 \details{
+  % this will print the index but this doesn't seem useful.
+  % 
+  Index:
+  \Sexpr[stage=build,results=rd]{paste("\\\\preformatted{", paste(if(!is.null(lb$info[[2]])) lb$info[[2]] else "No entries",collapse="\n"), "}", sep="")}
 
-  % 2023-08-20 Georgi: not really needed, commenting out.
-  %
-  % \tabular{ll}{
-  % Package     \tab  \Sexpr[stage=build]{pd$Package   } \cr 
-  % Version     \tab  \Sexpr[stage=build]{pd$Version   } \cr
-  % Date        \tab  \Sexpr[stage=build]{pd$Date      } \cr    
-  % Author      \tab  \Sexpr[stage=build]{pd$Author    } \cr     
-  % Maintainer  \tab  \Sexpr[stage=build]{pd$Maintainer} \cr    
-  % License     \tab  \Sexpr[stage=build]{pd$License   } \cr    
-  % URL         \tab  \Sexpr[stage=build]{pd$URL       } \cr    
-  % Depends     \tab  \Sexpr[stage=build]{pd$Depends   } \cr    
-  % Suggests    \tab  \Sexpr[stage=build]{pd$Suggests  } \cr    
-  % Built       \tab  \Sexpr[stage=build]{pd$Built     } \cr
-  % }
+  The scripts are in the \code{scripts} subdirectory of the \code{FinTS}
+  installation directory. The function \code{\link{runscript}} may be
+  useful for working with them (view, run,, etc.), see the examples.
 
-   % this will print the index but this doesn't seem useful.
-   % 
-   Index:
-   \Sexpr[stage=build,results=rd]{paste("\\\\preformatted{", paste(if(!is.null(lb$info[[2]])) lb$info[[2]] else "No entries",collapse="\n"), "}", sep="")}
-
-
-    See the \code{scripts} subdirectory of the \code{FinTS} installation
-    directory =  system.file(package='FinTS').
-
-    Corrections to the script files provided and contributions to script
-    files for other chapters will be graciously accepted.
+  Corrections to the script files provided and contributions of script
+  files for other chapters will be graciously accepted.
 }
 \author{
 Spencer Graves
@@ -54,8 +38,11 @@ Maintainer: % Spencer Graves <spencer.graves@prodsyse.com>
   \url{https://faculty.chicagobooth.edu/ruey-s-tsay/teaching}
 }
 \examples{
-# Where is the 'FinTS' directory?
-system.file(package='FinTS')
+# get the directory containing the scripts
+scriptdir <- system.file(package = 'FinTS', "scripts")
+
+# list the available scripts
+dir(scriptdir)
 
 # View the script file 'ch01.R', which is in the 'scripts'
 # subdirectory of the system.file(package='FinTS') directory:

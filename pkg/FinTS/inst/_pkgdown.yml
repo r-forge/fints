@@ -99,7 +99,7 @@ reference:
      - FinTS.stats
      - compoundInterest
      - simple2logReturns
-  - title: "Other statistics"
+  - title: "Principal component analysis (PCA)"
     contents:
      - apca
      - plot.loadings
